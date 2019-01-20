@@ -1,0 +1,62 @@
+header ul>li:nth-child(2) a{
+	border-bottom:6px solid #A2B83C;
+}
+.content .word img{
+	width: 100%;
+	position: relative;
+}
+.content .word p{
+	color: #DADE7D;
+	font-size: 2em;
+	top: 260px;
+	left: 19%;
+	position: absolute;
+}
+.content .store .left{
+	float: left;
+	display: inline-block;
+}
+.content .store .right:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.content .store .right{
+	width: 75%;
+	margin-left: 23%;
+}
+.content .store .right li{
+	padding: 20px 0 0 10px;
+	float: left;
+}
+.content .store .right li .price{
+	height: 57px;
+	background: url('../img/bg-item-title.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.content .store .right li img{
+	width: 220px;
+	height: 208px;
+}
+.content .store .right li h3{
+	margin-top: 10px;
+	text-align: center;
+	padding: 10px 0 0 0;
+	font-size: 0.8em;
+	color: #BFCB75;
+}
+.content .store .right li span{
+	font-size: 0.7em;
+	margin: 0 auto;
+	display: block;
+	padding: 5px 0;
+	text-align: center;
+	color: #E0BA84;
+}
+/*本网页特有*/
+footer ul>li:nth-child(2) a{
+	color: #BECB8C;
+	border-bottom: 4px solid #E8E7CB;
+}
+
